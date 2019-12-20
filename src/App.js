@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import TableUI from "./Components/TableUI";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainApp">
+      <TableUI
+        link="https://jsonplaceholder.typicode.com/comments"
+        removeHeader="body"
+        remove={["postId", "id"]}
+        colorOneCell={{
+          cellName: "email",
+          CompareFromTable: rowValue => {
+            if (rowValue["email"].includes("sydney")) {
+              return true;
+            } else {
+              return false;
+            }
+          },
+          CompareFromOther: () => {}
+        }}
+      />
     </div>
   );
 }
