@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactTable from "react-table-6";
 import Moment from "moment";
-import {capitalizeFirstLetterOnly} from "../Utils/Utils.js";
+import {capitalizeFirstLetterOnly} from "../../Utils/Utils.js";
 import {omit, map} from "lodash";
 import "react-table-6/react-table.css";
 import {Container} from "reactstrap"

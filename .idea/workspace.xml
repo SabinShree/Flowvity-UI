@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344191d6-6097-4fae-b4fa-9c76a22fddfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/TimeLines/TimeLine/Timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/TimeLines/TimeLine/Timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/TimeLines/Timelines.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/TimeLines/Timelines.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TableUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TableUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TableUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/Table/TableUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,6 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,6 +49,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/TimeLines" />
+      <recent name="$PROJECT_DIR$/src/Components/TimeLine" />
+      <recent name="$PROJECT_DIR$/src/Container/Table" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -80,7 +96,10 @@
       <option name="presentableId" value="Default" />
       <updated>1576688928357</updated>
       <workItem from="1576688929780" duration="1281000" />
-      <workItem from="1576817579251" duration="4909000" />
+      <workItem from="1576817579251" duration="6051000" />
+      <workItem from="1576991260078" duration="701000" />
+      <workItem from="1577004261148" duration="1002000" />
+      <workItem from="1577077252288" duration="18486000" />
     </task>
     <servers />
   </component>
@@ -99,25 +118,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1576689056893" />
-    <state width="1897" height="241" key="GridCell.Tab.0.bottom" timestamp="1576818254265">
+    <state width="1897" height="241" key="GridCell.Tab.0.bottom" timestamp="1576825630164">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="241" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576818254265" />
-    <state width="1897" height="241" key="GridCell.Tab.0.center" timestamp="1576818254265">
+    <state width="1897" height="241" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576825630164" />
+    <state width="1897" height="241" key="GridCell.Tab.0.center" timestamp="1576825630164">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="241" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576818254265" />
-    <state width="1897" height="241" key="GridCell.Tab.0.left" timestamp="1576818254265">
+    <state width="1897" height="241" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576825630164" />
+    <state width="1897" height="241" key="GridCell.Tab.0.left" timestamp="1576825630164">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="241" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576818254265" />
-    <state width="1897" height="241" key="GridCell.Tab.0.right" timestamp="1576818254265">
+    <state width="1897" height="241" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576825630164" />
+    <state width="1897" height="241" key="GridCell.Tab.0.right" timestamp="1576825630164">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="241" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576818254265" />
-    <state x="1815" y="167" key="SettingsEditor" timestamp="1576821682907">
+    <state width="1897" height="241" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576825630164" />
+    <state x="1885" y="175" key="SettingsEditor" timestamp="1576991935869">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1815" y="167" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576821682907" />
+    <state x="1885" y="175" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1576991935869" />
+    <state x="-257" y="0" width="1720" height="889" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577090769474">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="-257" y="0" width="1720" height="889" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1577090769474" />
+    <state x="1989" y="247" key="search.everywhere.popup" timestamp="1577081683744">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1989" y="247" key="search.everywhere.popup/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1577081683744" />
   </component>
 </project>
