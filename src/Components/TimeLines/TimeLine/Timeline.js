@@ -8,7 +8,6 @@ const Timeline = (props) => {
 
     return (<li>
         <div className="direction-r">
-            <div className="taskName">{props.taskName}</div>
             <div className="flag-wrapper">
                 <span className="performedBy">Performed By {props.performedBy}</span>
                 <span className="date">{date}</span>

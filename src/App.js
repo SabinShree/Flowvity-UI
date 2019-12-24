@@ -1,9 +1,6 @@
 import React from "react";
 import "./App.css";
-import TableUI from "./Container/Table/TableUI";
-import Moment from "moment";
-import Timelines from "./Components/TimeLines/Timelines";
-
+import TimelinesPractice from "./Components/TimeLinePractice/TimlinePractice";
 
 class App extends React.Component {
     state = {
@@ -12,7 +9,7 @@ class App extends React.Component {
             performedBy: "Mahaesh  Adhikari",
             dateTime: 1577092789693
         }, {taskName: "Check Client Details", performedBy: "Kapil Sharma", dateTime: 1577092714673},
-             {
+            {
                 taskName: "Check Client Details",
                 performedBy: "Rujika Adhikari",
                 dateTime: 1577165111383
@@ -43,7 +40,7 @@ class App extends React.Component {
                 {/*        },*/}
                 {/*    }}*/}
                 {/*/>*/}
-                <Timelines personName="Sabin Kharel" timelinesData={this.state.timelineData}/>
+                <TimelinesPractice/>
             </div>
         );
     }

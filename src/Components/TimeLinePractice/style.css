@@ -1,0 +1,87 @@
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 90%;
+    padding: 40px 0;
+    box-shadow: 1px 2px 3px red;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #5D6F7C;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    list-style-type: none;
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    float: right;
+    text-align: left;
+    clear: both;
+    box-sizing: border-box;
+}
+
+
+.content {
+    padding-bottom: 20px;
+}
+
+
+.timeline ul li:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    top: 24px;
+    left: -4px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px gray;
+}
+
+.timeline ul li h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgba(233, 33, 99, 0.9);
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+
+.timeline ul li .time {
+    position: absolute;
+    top: 12px;
+    left: -455px;
+    margin: 0;
+    padding: 8px 16px;
+    background-color: #5D6F7C;
+    color: white;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px lavender;
+}
